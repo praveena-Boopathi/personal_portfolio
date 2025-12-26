@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+</head>
+<style>
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+ body {
+      background-color: #f4f6f8;
+      color: #333;
+      animation: fadeInBody 1.2s ease-in;
+    }
+ /* BODY FADE IN */
+    @keyframes fadeInBody {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+/* NAVBAR */
+    header {
+      padding: 20px 40px;
+      animation: slideDown 1s ease;
+    }
+    @keyframes slideDown {
+      from { transform: translateY(-100%); }
+      to { transform: translateY(0); }
+    }
+ a{
+    text-decoration: none;
+        color:white;
+       text-align: center;
+       font-weight: bold;
+       font-size: 18px;
+       }
+ li{
+     list-style-type: none;
+        display: inline;
+        padding: 26px;
+      }
+ #a1{
+            text-align: left;
+            margin-left: 20px;
+            color: white;
+            margin-top: -10px;
+         }
+         .a1{
+      background:linear-gradient(to right,black,#676869) ;
+    height: 60PX;
+     text-align:right; 
+        padding: -10px;
+         }.a2{
+            margin-top: -50px;   
+         }
+          #a11{
+           height: 490px;
+            width: 1210px;
+            background:linear-gradient(to right,#1da8ba,#9fcde1) ;
+            }
+         #a12{
+            height: 490px;
+            width: 1210px;
+             background:linear-gradient(to right,#1da8ba,#9fcde1) ;
+         } #a13{
+            height: 490px;
+            width: 1210px;
+           background:linear-gradient(to right,#1da8ba,#9fcde1) ;
+          
+         } #a14{
+            height: 490px;
+            width: 1210px;
+             background:linear-gradient(to right,#1da8ba,#9fcde1) ;
+         } #a15{
+            height: 490px;
+            width: 1210px;
+             background:linear-gradient(to right,#1da8ba,#9fcde1) ;
+         } #a16{
+            height: 490px;
+            width: 1210px;
+            background:linear-gradient(to right,#1da8ba,#9fcde1) ;
+             } 
+         .h{
+            margin-top: 0%;
+            padding-left: 150px;
+            color: white;
+            padding-top: 100px;
+            margin-bottom: 10px;
+     }.a112 span{
+        color: #fffff6;
+     }
+     .a112 p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      max-width: 600px;
+      animation: fadeIn 1.5s ease;
+      color: white;
+      font-weight: bold;
+      animation: fadeIn 2s ease-in;
+    }
+     @keyframes slideUp {
+      from { transform: translateY(40px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    /* TYPING ANIMATION */
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 45%; }
+     
+    }
+ @keyframes blink {
+      50% { border-color: transparent; }
+    }
+      to { transform: translateY(0); opacity: 1; }
+  @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .a112 h1 {
+      
+      font-size:38px;
+      margin-bottom: 10px;
+      overflow:hidden;
+      white-space: nowrap;
+      width: 0;
+      animation: typing 3s steps(25) forwards, blink 0.7s infinite;
+     } 
+     nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      position: relative;
+    }
+ /* LINK HOVER ANIMATION */
+    nav ul li a::after {
+      content: "";
+      width: 0;
+      height: 2px;
+      background: #B7B9BE;
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      transition: width 0.3s;
+      text-decoration: double;
+    }
+ nav ul li a:hover::after {
+      width: 100%;
+    }
+    .s{
+      padding-left: 70px;
+      padding-top: 15px;
+      color: white;
+       }
+    .pa{
+    padding-left: 50px;
+    padding-top: 15px;
+    }
+    .a1{
+        padding: 20px 40px;
+      animation: slideDown 1s ease;
+    }
+ .ab{
+     color: white;
+    }
+    .p1{
+       font-size: 18px;
+      margin-bottom: 20px;
+      max-width: 600px;
+      animation: fadeIn 1.5s ease;
+      color: white;
+      font-weight: bold;
+    }
+  /* HOME PHOTO - LEFT SIDE */
+#a11 {
+  position: relative;
+}
+.home-photo {
+  position: absolute;
+  left: 750px;
+  top: 80px;
+  animation: fadeIn 2s ease-in;
+}
+.home-photo img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid white;
+  box-shadow: 0 10px 80px rgba(0,0,0,0.3);
+  transition: transform 0.4s ease;
+  background-position: left;
+  }
+
+.home-photo img:hover {
+  transform: scale(1.05);
+}
+#a12 p{
+  text-align: center;
+  margin-left:250px;
+  margin-top: 60px;
+}
+.pr{
+color: white;
+}
+#a13  li {
+     list-style-type: none;
+        display:block;
+        padding: 26px;
+        color: white;
+        font-size: 20px;
+        margin-bottom: 90px;
+       } 
+#a13 p{
+   color:white;
+   font-size:17px;
+   align-items: center;
+   padding-left: 10px;
+   margin-top: -100px;
+  }
+.prb{
+
+   border-radius: 5%;
+   margin-top: 30px;
+   width: 500px;
+  transition: transform 0.4s ease;
+    box-shadow: 0 10px 80px rgba(0,0,0,0.3);
+}
+.prb1{
+  
+   border-radius: 5%;
+   margin-top: -258px;
+   width: 500px;
+   transition: transform 0.4s ease;
+   margin-left: 550px;
+     box-shadow: 0 10px 80px rgba(0,0,0,0.3);
+
+}
+.prb:hover{
+   transform: scale(1.05);
+   
+}
+.prb1:hover{
+   transform: scale(1.05);
+}
+#a15 h1{
+  color:white;
+   margin-bottom: 20px;
+   margin-top: -10px; 
+} 
+.skills ul  {
+      max-width: 400px;
+      margin: auto;
+      list-style: none;
+    }.skills ul li {
+      background: #7ae9ff52;
+      margin: 10px 0;
+      padding: 12px;
+      text-align: center;
+      border-radius: 6px;
+      animation: fadeIn 1s ease;
+      transition: transform 0.3s;
+      margin-bottom: 30px;
+      margin-top: 40px;
+      font-size: 20px;
+       box-shadow: 0 10px 80px rgba(0,0,0,0.3);
+    }
+ .skills ul li:hover {
+     transform:scale(1.05)
+    }
+    #a15 li{
+      display: block;
+    }
+    #a16 h1{
+      color: white;
+     
+    }
+    #a16 h2{
+      color: rgb(0, 0, 0);
+      margin-top: 100px;
+      margin-left: 400px;
+      margin-bottom: -70px;
+     
+ }
+ #a16 ul  {
+      max-width: 600px;
+      margin: auto;
+      list-style: none;
+      
+    }
+ #a16 ul li{
+   background: #7ae9ff52;
+      margin: 10px 0;
+      padding: 12px;
+      text-align: center;
+      border-radius: 6px;
+      animation: fadeIn 1s ease;
+      transition: transform 0.3s;
+      margin-bottom: 30px;
+      margin-top: 40px;
+      font-size: 20px;
+     
+} 
+ #a16 ul li:hover{
+transform:scale(1.05)
+ }
+ #a16 li{
+  display: block; 
+ }
+ #a14 h1{
+  color: white;
+
+ }
+ #a14 ul li{
+   background: #7ae9ff52;
+      margin: 10px 0;
+      padding: 12px;
+      text-align: center;
+      border-radius: 6px;
+      margin-bottom: 30px;
+      margin-top: 40px;
+      font-size: 20px;
+      display: block;
+      box-shadow: 0 10px 80px rgba(0,0,0,0.3);
+       max-width: 600px;
+      margin: auto;
+      list-style: none;
+      margin-bottom: 20px;
+     
+ }
+ #a14 ul li:hover{
+  transform:scale(1.05)
+ }
+#a14 .s1{
+  margin-top: 10px;
+ }
+ #a14 .s2{
+  margin-top: -112px;
+ }
+ #a14 .s3{
+   margin-top: 10px;
+ }
+ #a14 .s4{
+  margin-top: -112px;
+ }
+ #a14{
+  color: white;
+ }
+ #a15{
+  color: white;
+ }
+ #a16{
+  color: white;
+ }
+ .p1:hover{
+     transform: scale(1.05);
+ }
+ .s:hover{
+     transform: scale(1.05);
+ }
+ .pa:hover{
+     transform: scale(1.05);
+ }
+ .h:hover{
+     transform: scale(1.05);
+ }
+ .ab:hover{
+     transform: scale(1.05);
+ }
+ .pr:hover{
+     transform: scale(1.05);
+ }
+ .ce:hover{
+     transform: scale(1.05);
+ }
+ .sk:hover{
+     transform: scale(1.05);
+ }
+ .co:hover{
+     transform: scale(1.05);
+ }
+
+
+</style>
+<body>
+    <nav>
+     
+        <div class="a1">
+         <h1 ID="a1"> MyPortfolio</h1>
+         <DIV class="a2">
+        <header>
+    <ul>
+        <li><a  href="#a11">Home</a></li>
+        <li><a href="#a12">About Me</a></li>
+        <li><a href="#a13">Project Section</a></li>
+        <li><a href="#a14">Certifications</a></li>
+        <li><a href="#a15">Skills</a></li>
+        <li><a href="#a16">Contact Section</a></li>
+    </ul></header>
+    </DIV> 
+    </div>
+    </nav>
+    <div id="a11">
+      <div class="home-photo">
+  <img src="photo.avif" alt="Praveena Profile">
+</div>
+ <div class="a112" style="animation: slideUp 2s ease;">
+      <h1 class="h">Hi, I'm <span>PRAVEENA B</span></h1>
+            <h2 class="s">Java FullStack Developer | UI/UX Designer</h2>
+     <p class="pa">I am a passionate Java Full Stack Developer with strong knowledge
+ in building responsive, user-friendly web applications. 
+ I specialize in frontend and backend development, and I also 
+design clean and intuitive interfaces using UI/UX principles.
+I have experience creating designs in Figma, 
+transforming ideas into visually appealing and 
+functional digital experiences</p></div> </div>
+    <div id="a12">
+<h1 class="ab"style="margin-left:500px">About Me</h1>
+<p class="p1">Hello! I’m Praveena Boopathi, a passionate Java Full Stack Developer with
+   a strong interest in building user-friendly and visually appealing web applications.
+I have hands-on experience in HTML, CSS, Java, and Python, and I enjoy transforming
+ ideas into functional and responsive designs. Along with development, I also work with 
+Figma and have a good understanding of UI/UX design principles, which helps me create 
+clean and intuitive interfaces.I’m constantly learning new technologies and improving
+ my skills to build efficient, scalable, and modern applications. I enjoy solving problems,
+  working on real-world projects, and growing as a developer.</p></div>
+    <div id="a13">
+<h1  class="pr"style="margin-left: 450px;">Project Section</h1>
+<ul><div class="prb" style="margin-left: 60px;">
+  <li>Online Quiz Application</li>
+  <p>Developed an online quiz application using Java to provide an interactive learning experience. 
+    The application features multiple-choice questions, score tracking, instant result display, 
+    and timed quizzes to challenge users. It includes a user-friendly interface, custom quiz creation,
+     and analytics for performance tracking, along with responsive design for smooth usability on 
+     different devices. The project is designed to be scalable, easy to maintain, and extendable,
+      enabling future enhancements and integration of new features</p></div>
+  <div class="prb1" style="margin-left: 600px;">
+ <li>Portfolio(My Portfolio)</li>
+  <p>Developed a personal portfolio website using HTML and CSS to showcase my skills, projects,
+     and achievements. The website features a responsive layout, smooth CSS animations, and interactive 
+     elements to enhance user experience. It includes sections for about me, skills, projects, and contact
+      information, with hover effects, transitions, and a clean, user-friendly design. The project also 
+      incorporates making it visually appealing and easy to navigate. It is fully static,
+       allowing future updates and additions.</p></div>
+</ul></div>
+    <div id="a14">
+<h1 class="ce" style="margin-left: 500px;">Certifications</h1>
+<ul><li class="s1" style="margin-left: 10px;">Cybernaut's Tech Trio<br><br>Course On Java With 96%</li>
+<li class="s2" style="margin-left: 640px;">IBM (Coursera)<br><br>Intoduction To Software Engineering</li>
+<li class="s3"style="margin-left:10px">Snestron Systems Private Limited<br><br>Web Development</li>
+<li class="s4" style="margin-left: 640px;">Elita <br><br>Website Application Design And Development
+</li>
+<li>Codetech IT Solutions <br><br>Web Development</li></ul>
+</div>
+    <div id="a15" class="skills" style="animation: fadeIn 2s ease;">
+<h1 class="sk" style="margin-left: 550px;">Skills</h1>
+  <ul>
+      <li>Java</li>
+      <li>HTML & CSS</li>
+      <li>JavaScript Basics</li>
+      <li>Figma</li>
+      <li>UI / UX Design</li>
+    </ul>
+    </div >
+<div id="a16" >
+<h1  class ="co"style="margin-left: 550px;">Contact Section</h1>
+<ul>
+<li>
+   ✉️ Email : praveena09613@gmail.com
+</li>
+ 
+  <li class="c2">💼 LinkedIn: https: //www.linkedin.com/in/praveenab09</li>
+ <li class="c3">💻 Github : https://github.com/praveena-Boopathi</li></ul>
+    </div> </body>
+</html>
